@@ -1,51 +1,88 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Hotel Room Booking</title>
+    <title>Workout Tracker</title>
 </head>
 
 <body>
 
-<header>
-    <h1>Hotel Room Booking</h1>
-</header>
+    
+    <header>
+        <h1>Workout Tracker</h1>
 
-<main>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#login">Login</a>
+        </nav>
 
-<section>
+        <hr>
+    </header>
 
-<h2>Booking Form</h2>
+    
+    <section id="home">
 
-<form>
+        <h2>Welcome to Workout Tracker</h2>
 
-Name:
-<input type="text"><br><br>
+        <p>
+            Track your workouts, monitor your progress,
+            and achieve your fitness goals.
+        </p>
 
-Email:
-<input type="email"><br><br>
+        <h3>Features</h3>
 
-Room Type:
-<select>
-    <option>Single</option>
-    <option>Double</option>
-</select><br><br>
+        <ul>
+            <li>Log Daily Workouts</li>
+            <li>Track Progress</li>
+            <li>Set Fitness Goals</li>
+            <li>View Workout History</li>
+        </ul>
 
-Check In:
-<input type="date"><br><br>
+        <h3>Why Choose Workout Tracker?</h3>
 
-<input type="submit" value="Book">
+        <p>
+            Workout Tracker helps you stay consistent by keeping
+            all your workout records in one place.
+        </p>
 
-</form>
+        <hr>
 
-</section>
+    </section>
 
-</main>
+    
+    <section id="login">
 
-<footer>
-    <p>Thank You for Visiting</p>
-</footer>
+        <h2>Login</h2>
+
+        <form>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label><br><br>
+
+            <button type="submit">Login</button>
+            <button type="reset">Reset</button>
+
+        </form>
+
+    </section>
+
+    <hr>
+
+    
+    <footer>
+
+        <p>&copy; 2026 Workout Tracker</p>
+
+        <p>
+            Contact: support@workouttracker.com
+        </p>
+
+    </footer>
 
 </body>
-
 </html>
